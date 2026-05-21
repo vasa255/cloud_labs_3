@@ -1,4 +1,4 @@
-const url = "https://mysuperapp.greendesert-cae30ab5.swedencentral.azurecontainerapps.io";
+const url = "https://supercontainerapp.purplehill-1c56d690.swedencentral.azurecontainerapps.io";
 const TOKEN = "";
 
 const data = {
