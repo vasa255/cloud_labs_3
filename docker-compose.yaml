@@ -14,7 +14,9 @@ services:
     restart: always
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /root/.docker/config.json:/root/.docker/config.json:ro
+    environment:
+      - REPO_USER=superacr123
+      - REPO_PASS=${ACR_PASSWORD}
     command: >
       --interval 60
       --cleanup
